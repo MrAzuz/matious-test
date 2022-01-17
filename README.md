@@ -9,5 +9,4 @@
    
   
 
-
-!(/readmeimg/1.jpg)
+![Alt text](/readmeimg/1.jpg?raw=true "img1")
