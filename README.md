@@ -9,4 +9,4 @@
    
   
 
-![image](/readmeimg/1.jpg "img1")
+![image](readmeimg/1.jpg "img1")
