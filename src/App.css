@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.options select{
+  margin: 0 20px;
+}
+
+.paginationBtns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBtns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.paginationBtns a:hover {
+  color: #000;
+  background-color: #eee;
+}
+
+.paginationActive a {
+  color: #000;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.paginationDisabled a {
+  color: #999;
+  border-color: #999;
+}
+.paginationDisabled a:hover{
+  color: #999;
+  border-color: #999;
+  background-color: transparent !important;
+  cursor: not-allowed;
+}
